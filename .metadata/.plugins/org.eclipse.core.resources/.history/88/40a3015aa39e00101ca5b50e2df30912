@@ -1,0 +1,30 @@
+package com.training.basics;
+
+public class SwitchDemo {
+	public static void main(String[] args) {
+		String weather = "rainy";
+				
+	  // accepts expression that can be an int value, String, enum	
+		switch (weather.toUpperCase() {
+		case "RAINY": {
+			
+			System.out.println("Drink Tea");
+			System.out.println("Enjoy Rain");
+			break;
+		}
+		case "WINTER":{
+			System.out.println("Drink Soup");
+			System.out.println("Sleep cozy");
+			break;
+		}
+		case "SUMMER":{
+			System.out.println("Have IceCream");
+			System.out.println("Stay at home");
+			break;
+		}
+		default:
+			System.out.println("Incorrect Choice");
+		}
+	}
+
+}
