@@ -1,0 +1,15 @@
+package com.oops.overload;
+
+public class Vehicle {
+	
+	String model;
+	String brand;
+	double price;
+	public Vehicle() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}

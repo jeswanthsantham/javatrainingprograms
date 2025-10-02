@@ -1,0 +1,19 @@
+package com.oops.basics;
+
+public class Student {
+	String studentName;
+	String Sdepartment;
+	
+	Student(name, department){
+		studentName = name;
+		department = department;
+	}
+	
+	void getDetails() {
+		System.out.println("Student name "+ studentName);
+		System.out.println("Department "+ department);
+		
+		
+	}
+
+}
